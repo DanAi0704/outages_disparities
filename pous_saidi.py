@@ -796,11 +796,11 @@ def pous_county_to_MajorUtility_mapping():
 
 def main():
 	#-----unity
-	pous_data_dir = "/gypsum/eguide/projects/zshah/data/POUS"
-	stormdata_dir = "/gypsum/eguide/projects/zshah/data/USA_storms_data/"
-	counties_shapefile = "/gypsum/eguide/projects/zshah/data/shapefiles/USA/cb_2018_us_county_500k/cb_2018_us_county_500k.shp"
-	eia_data_dir = "/gypsum/eguide/projects/zshah/data/EIA_reliability_2016_2021"
-	output_dir = "/gypsum/eguide/projects/zshah/data/POUS_and_storms"
+	pous_data_dir = "/gypsum/POUS"
+	stormdata_dir = "/gypsum/USA_storms_data/"
+	counties_shapefile = "/gypsum/cb_2018_us_county_500k.shp"
+	eia_data_dir = "/gypsum/EIA_reliability_2016_2021"
+	output_dir = "/gypsum/POUS_and_storms"
 
 	#----local
 	# stormdata_dir = "/Users/zealshah/Documents/Poweroutages-inequity/poweroutages-inequity/data/storm_data",
